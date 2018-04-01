@@ -1,188 +1,19 @@
 <addons>
 
-<addon id="teamtuga4ever.repository" name="Teamtuga4ever Repository" version="2.0" provider-name="Teamtuga4ever">
-	<extension point="xbmc.addon.repository" name="Vip Secrettv">
-		<info compressed="false">http://logan.amerikanotuga.tech/repo/addons.xml</info>
-		<checksum>http://logan.amerikanotuga.tech/repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://logan.amerikanotuga.tech/repo/zip/</datadir>
+<addon id="discave.repo" name="DiscaveHB Repositorio" version="0.0.5" provider-name="Discave">
+	<extension point="xbmc.addon.repository" name="Discave Repositorio">
+		<info compressed="false">http://raw.github.com/discave/discave.repo/master/addons.xml</info>
+		<checksum>http://raw.github.com/discave/discave.repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/discave/discave.repo/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Teamtuga4ever</summary>
-		<description>
-Teamtuga4ever Repository
-		 </description> 
-		
+		<summary>DiscaveHB Repo</summary>
+		<description>DiscaveHB Repositorio</description>
+		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
 
-<addon id="plugin.video.TheOne"
-       name="[COLOR blue]The[/COLOR]One"
-       version="0.0.8b"
-       provider-name="TheOne">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="false"/>
-    <import addon="plugin.video.youtube" optional="false" />
-    <import addon="script.module.urlresolver" optional="false"/>
-    <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer" optional="true"/>
- 
-	 
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="t.py">
-    <provides>video</provides>
-  </extension>
-  
-  
-	
-  <extension point="xbmc.addon.metadata">
-    <summary>TheOne</summary>
-    <description>Todos os links disponibilizados no Addon estao disponiveis 
-em procura livre na internet.</description>
-    <platform>all</platform>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.gif</fanart>
-        </assets>
-  </extension>
-</addon>
-
-<addon id="plugin.video.lubetube"
-       name="Lubetube (Adult)"
-       version="1.17"
-       provider-name="xbmc-adult">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</summary>
-    <description>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.theonem" name="[COLOR blue]The[/COLOR]One MOVIES SCRIPT" version="2.0" provider-name="RSIPTV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.urlresolver" version="4.0.07"/>
-    <import addon="script.module.requests" version="2.9.1"/>
-    <import addon="script.module.futures" version="2.2.0"/>
-    <import addon="script.module.pair" />
-     </requires>
-  <extension point="xbmc.python.pluginsource" library="t.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR blue]The[/COLOR]One MOVIES SCRIPT  #####Credits to Biglad#####</summary>
-    <description lang="en">[COLOR blue]The[/COLOR]One MOVIES SCRIPT  #####Credits to Biglad#####</description>
-	    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.vipsecretm" name="[COLOR gold][B]SECRET[/B][/COLOR][COLOR white][B]TV[/B][/COLOR][COLOR blue][B]VIP[/B][/COLOR] MOVIES 1080P" version="2.0" provider-name="RSIPTV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.urlresolver" version="4.0.07"/>
-    <import addon="script.module.requests" version="2.9.1"/>
-    <import addon="script.module.futures" version="2.2.0"/>
-    <import addon="script.module.pair" />
-     </requires>
-  <extension point="xbmc.python.pluginsource" library="vipm.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR gold][B]SECRET[/B][/COLOR][COLOR white][B]TV[/B][/COLOR][COLOR blue][B]VIP[/B][/COLOR] MOVIES SCRIPT  #####Credits to Biglad#####</summary>
-    <description lang="en">[COLOR gold][B]SECRET[/B][/COLOR][COLOR white][B]TV[/B][/COLOR][COLOR blue][B]VIP[/B][/COLOR] MOVIES SCRIPT  #####Credits to Biglad#####</description>
-	    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.module.pair"
-  name="Pair"
-  version="2.0" 
-  provider-name="RSIPTV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.script" library="pair.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">RSIPTV Menu System</summary>
-    <description lang="en">RSIPTV Menu System</description>
-	<disclaimer>RSIPTV Menu System</disclaimer>
-  </extension>
-</addon>
-
-<addon id="script.module.donation"
-  name="[COLOR white]DONATION PAYPAL.ME/[/COLOR][COLOR blue]TEAM[/COLOR][COLOR blue]VIPSECRET[/COLOR]"
-  version="2.0" 
-  provider-name="v">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.script" library="v.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">[COLOR white]DONATION PAYPAL.ME/[COLOR blue]TEAM[/COLOR][COLOR blue]VIPSECRET[/COLOR]</summary>
-    <description lang="en">[COLOR white]DONATION PAYPAL.ME/[COLOR blue]TEAM[/COLOR][COLOR blue]VIPSECRET[/COLOR]</description>
-	<disclaimer>[COLOR white]DONATION PAYPAL.ME/[COLOR blue]TEAM[/COLOR][COLOR blue]VIPSECRET[/COLOR]</disclaimer>
-  </extension>
-</addon>
-
-<addon id="plugin.video.vipsecret"
-       name="[COLOR gold][B]SECRET[/B][/COLOR][COLOR white][B]TV[/B][/COLOR][COLOR blue][B]VIP[/B][/COLOR]"
-       version="0.10"
-       provider-name="Team VipSecret">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="false"/>
-    <import addon="plugin.video.youtube" optional="false" />
-    <import addon="script.module.urlresolver" optional="false"/>
-    <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer" optional="true"/>
- 
-	 
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="v.py">
-    <provides>video</provides>
-  </extension>
-  
-   <extension point="xbmc.addon.metadata">
-    <summary>SECRET TV VIP</summary>
-    <description>Todos os links disponibilizados no Addon estao disponiveis 
-em procura livre na internet.</description>
-    <platform>all</platform>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.gif</fanart>
-        </assets>
-  </extension>
-</addon>
 
 <addon id="plugin.program.VipSecrettv.wizard" name="[COLOR gold][B]VipSecrettv[/B][/COLOR][COLOR ghostwhite]Wizard[/COLOR]" version="1.0" provider-name="Marco Nogueira">
   <requires>
@@ -199,518 +30,6 @@ em procura livre na internet.</description>
 	<news>Thanks To Aftermath For The Base Of The Wizard You Did A Great Job, I Have Made Some Great Changes And More To Come</news>
   </extension>
 </addon>
-
-<addon id="plugin.video.rsiptv"
-       name="[COLOR blue]RS[/COLOR]IPTV"
-       version="0.10"
-       provider-name="RSIPTV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="false"/>
-    <import addon="plugin.video.youtube" optional="false" />
-    <import addon="script.module.urlresolver" optional="false"/>
-    <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer" optional="true"/>
- 
-	 
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="r.py">
-    <provides>video</provides>
-  </extension>
-  
-   <extension point="xbmc.addon.repository" name="repository.rsiptv">
-		<info compressed="false">https://raw.githubusercontent.com/rsiptv2018/repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/rsiptv2018/repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/rsiptv2018/repo/raw/master/zip/</datadir>
-	</extension>
-	
-	
-  <extension point="xbmc.addon.metadata">
-    <summary>RSIPTV</summary>
-    <description>Todos os links disponibilizados no Addon estao disponiveis 
-em procura livre na internet.</description>
-    <platform>all</platform>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.gif</fanart>
-        </assets>
-  </extension>
-</addon>
-
-
-
-<addon id="discave.repo" name="DiscaveHB Repositorio" version="0.0.5" provider-name="Discave">
-	<extension point="xbmc.addon.repository" name="Discave Repositorio">
-		<info compressed="false">http://raw.github.com/discave/discave.repo/master/addons.xml</info>
-		<checksum>http://raw.github.com/discave/discave.repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/discave/discave.repo/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>DiscaveHB Repo</summary>
-		<description>DiscaveHB Repositorio</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="plugin.video.tugak"
-       name="Tuga Kids"
-       version="1.2"
-       provider-name="Discave">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" /> 
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>    
-    <import addon="script.module.livestreamer" optional="true"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Video em audio Pt</summary>
-   <description lang="en">Alguns dos melhores filmes de animação com o audio em Pt-pt
-	Necessita do URLResolver, HTTPLib2, Simplejson
-	Qualquer contacto https://www.facebook.com/groups/discavehbrepo/</description>
-	<disclaimer lang="en">Todos os conteúdos não são hospedados pelos intervinientes, são link's encontrados na net em qualquer motor de busca</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.surikata" name="surikata TV" version="1.0.6" provider-name="Discave">
-    <requires>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="player.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>A tua lista de IPTV</summary>
-        <description>Junta-te a nos, no GitHub em https://github.com/myIPTVChannels/lists  adiciona, edita, faz esta lista ser tua tambem. Comenta em https://www.facebook.com/groups/listasiptv/</description>
-		<disclaimer lang="pt">Nenhum dos intervenientes difunde, retransmite qualquer canal exposto, nem obtem quaisquer rendimentos do trabalho elaborado</disclaimer>
-
-	</extension>
-</addon>
-
-
-<addon id="plugin.video.piranha" version="3.1" name="[COLOR gold][B]Piranha[/B][/COLOR]" provider-name="VipSecret">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.piranha" />
-		<import addon="script.piranha.artwork" version="3.0" />
-		<import addon="script.piranha.metadata" version="3.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="piranha.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Piranha</summary>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
-    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
-    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
-		</assets>
-		<news></news>
-	</extension>
-</addon>
-
-<addon id="script.piranha.artwork" version="3.0" name="PIRANHA Artwork" provider-name="VipSecret">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the PIRANHA Addon</summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-
-
-<addon id="script.piranha.metadata" version="3.0" name="Piranha Metadata" provider-name="VipSecret">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the Piranha Addon</summary>
-		<description>Metadata for Piranha are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-
-<addon id="script.module.piranha" name="PIRANHA Module" version="3.1" provider-name="VipSecret">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Piranha</summary>
-	</extension>
-</addon>
-
-
-<addon id="plugin.video.GHOST"
-       name="GHOST"
-       version="0.0.1"
-       provider-name="GHOST">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-	<import addon="plugin.video.SportsDevil" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  
-  	
-  <extension point="xbmc.addon.metadata">
-    <summary>ADDON GHOST</summary>
-    <description>
-        Todos os links disponibilizados no Addon estao disponiveis 
-em procura livre na internet.
-             
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.live.streamspro"
-       name="LiveStreamsPro"
-       version="2.8.1"
-       provider-name="Shani">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>livestreamspro- shamelessly forked from livestreams but added many thinks</summary>
-    <description>
-        In addition to what livestreams allowed you to do, you can now,
-        1. call regex in regex,
-        2. multiple regex in page, regex in session, also htmlunescape responses
-        3. create session from one regex and pass onto next in line
-        4. save sessions to a file and open again later
-        5. write python code in .py file, put in the profile directory and then call from your regex.
-        6. use epoctime, guid and unpack as functions already defined.
-        7. Use it to post values to the pages to get the proper responses
-        8. support many headers, like origin, X-Requested-With
-        9. you can now append cookies in response and then read in regex using includeheaders
-        10. You can now link to another web url via your xml using externallink
-        11. support for google captcha, now you can show and then post the text
-        
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-
-<addon id="plugin.video.WEB"
-       name="WEB"
-       version="0.0.1"
-       provider-name="Team VipSecret">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-	<import addon="plugin.video.SportsDevil" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  
-  	
-  <extension point="xbmc.addon.metadata">
-    <summary>ADDON WEB</summary>
-    <description>
-        Todos os links disponibilizados no Addon estao disponiveis 
-em procura livre na internet.
-             
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="repository.magellan" name="Repo Magellan" version="1.1" provider-name="Ike">
-	<extension point="xbmc.addon.repository" name="repository.magellan">
-		<info compressed="false">http://raw.github.com/afonsinoguimaraes/repository.magellan/master/addons.xml</info>
-		<checksum>http://raw.github.com/afonsinoguimaraes/repository.magellan/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/afonsinoguimaraes/repository.magellan/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Repo Magellan</summary>
-		<description>Repo Magellan</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.aceboxpt" name="AceBoxPT Repo" version="3.0" provider-name="AceBoxPT">
-	<extension point="xbmc.addon.repository" name="AceBoxPT Repo">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/modules4all/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/AceBoxPT/modules4all/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/modules4all/master/zips/</datadir>
-		</dir>
-		<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">www.aceboxstreams.info</summary>
-		<description lang="en">AceBoxPT repository of some favorites coders...</description>
-		<genre>kids,livetv,movies,radio,sports,tvshows,portuguese,uk</genre>
-	</extension>
-</addon>
-
-<addon id="plugin.video.cantinhoav"
-       name="[COLOR white][B]Cantinho[/B][/COLOR][COLOR red][B]AV[/B][/COLOR]"
-       version="1.0"
-       provider-name="[COLOR cyan][B]AceBox[/B][/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  
-
-  
-  <extension point="xbmc.addon.metadata">
-    <summary>CANTINHO DO SOFTWARE</summary>
-    <description>
-        Este addon foi modificado por AceBox para ser usado pelo Cantinho do Software!
-        
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-
-<addon id='script.module.torrent.ts' version='0.6.0.28a' name='AceStream Client' provider-name='NuisMons'>
-  <requires>
-    <import addon='xbmc.python' version='2.1.0'/>
-  </requires>
-  <extension point="xbmc.python.script" library="tsserv.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point='xbmc.addon.metadata'>
-    <platform>all</platform>
-    <summary>AceStream Engine support</summary>
-  </extension>
-  <extension library="default.py" point="xbmc.service" />
-  <extension point='xbmc.python.module'/>
-</addon>
-
-
-<addon id="repository.TeamBlue" name="[COLOR blue]T[/COLOR]eam[COLOR blue]Blue[/COLOR]" version="1.0.0" provider-name="TeamBlue Live Events">
-	<extension point="xbmc.addon.repository" name="Vip Secrettv">
-		<info compressed="false">https://teamblue65repo.000webhostapp.com/Plugins/addons.xml</info>
-		<checksum>https://teamblue65repo.000webhostapp.com/Plugins/addons.xml.md5</checksum>
-		<datadir zip="true">https://teamblue65repo.000webhostapp.com/Plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Repositorio do Add-on TeamBlue</summary>
-		<description>
-Repositorio para o add-on TeamBlue e alguns serviços necessários ao seu bom funcionamento
-NOTA: é necessario ter instalados: 
-f4mtester – f4mproxy (repositorio Shani)
-Sports Devil – Plexus (incluidos neste repositorio)
-O criador deste addon nao possui nem esta ligado de nenhuma forma ao conteudo nele disponibilizado.
-Apenas disponibiliza conteudos de terceiros
-Visitem o meu grupo no facebook em: https://www.facebook.com/groups/TeamBlue.addon
-		 </description> 
-		
-		<platform>all</platform>
-	</extension>
-</addon>
-
-
-
-
-
-
-<addon id="repository.vipsecrettv" name="[COLOR gold][B].Vip[/B][/COLOR][COLOR white][B]Secret[/B][/COLOR][COLOR blue][B]REPO[/B][/COLOR]" version="1.0.5" provider-name="Vip Secrettv">
-	<extension point="xbmc.addon.repository" name="Vip Secrettv">
-	
-	
-	<extension point="xbmc.addon.repository" name="repository.rsiptv">
-		<info compressed="false">https://github.com/SecretTvVip/repo/raw/master/addons.xml</info>
-		<checksum>https://github.com/SecretTvVip/repo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/SecretTvVip/repo/raw/master/zip/</datadir>
-	</extension>
-	
-	<extension point="xbmc.addon.metadata">
-		<summary>Vip Secrettv</summary>
-		<description>
-Vip Secrettv Repository
-		 </description> 
-		
-		<platform>all</platform>
-	</extension>
-</addon>
-
-
-
-<addon id="plugin.video.teamblue"
-       name="[COLOR blue]T[/COLOR]eam[COLOR blue]B[/COLOR]lue Live Events"
-       version="2.4"
-       provider-name="Eduardo Pinto">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" /> 
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="pt">Add-on ao estilo Agenda Desportiva</summary>
-    <description lang="pt">
-O add-on TeamBlue apresenta as seguintes secções:
-Agenda desportiva com transmissões em direto de várias modalidades
-Sports Replays (Futebol-Desportos Motorizados-WWE-UFC-NBA)
-Canais World IPTV (Portugal-Alemanha-Espanha-França-Itália-Inglaterra-Brasil-Estados Unidos-Adultos) 
-Canais Arenavision (para ver com o Plexus)
-Webcam's
-NOTA: para a correta visualização de alguns canais é necessário ter instalados: 
-f4mtester – f4mproxy - Sports Devil – Plexus
-O criador deste addon não possui nem está ligado de nenhuma forma ao conteúdo nele disponibilizado.
-Apenas disponibiliza conteúdos de terceiros	
-	</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-
-
-
-<addon id="script.module.beautifulsoup4"
-       name="BeautifulSoup4"
-       version="4.5.3"
-       provider-name="Leonard Richardson (leonardr@segfault.org)">
-  <requires>
-    <import addon="xbmc.python" 
-             version="2.25.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>HTML/XML parser for quick-turnaround applications like screen-scraping</summary>
-    <description>Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.</description>
-    <license>BSD</license>
-    <platform>all</platform>
-    <website>http://www.crummy.com/software/BeautifulSoup/</website>
-  </extension>
-</addon>
-
-
-<addon id="script.module.t0mm0.common" 
-	     name="t0mm0's common stuff" 
-	     version="2.1.1" 
-	     provider-name="t0mm0">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Collection of commonly used addon routines</summary>
-    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
-  </extension>
-</addon>
-
-
 
 <addon id="plugin.video.AmerikanoTuga"
        name="[COLOR red][B]AMERIKANO[/B][/COLOR][COLOR green][B]TUGA[/B][/COLOR]"
@@ -759,46 +78,41 @@ em procura livre na internet.
   </extension>
 </addon>
 
-
-
-<addon id="plugin.video.loganaddon" name="[B][COLOR red]LOGAN[/COLOR][/B]" version="2.1" provider-name="TeamTuga4ever">
+<addon id="plugin.video.AniPT"
+       name="AniPT"
+       version="1.0"
+       provider-name="RS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="false"/>
-    <import addon="plugin.video.youtube" optional="false" />
-    <import addon="script.module.urlresolver" optional="false"/>
-    <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" version="3.0.31"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>HmmOK tudo para si</summary>
-    <description>
-
-        
-    </description>
-<platform>all</platform>
-  <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.gif</fanart>
-        </assets>
+    <summary lang="en">Animes e Desenhos Animados</summary>
+    <description lang="en">Este addon contem todo o tipo de animes e desenhos animados.</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
-
-
-<addon id="plugin.video.AmerikanoTuga"
-       name="[COLOR red][B]AMERIKANO[/B][/COLOR][COLOR green][B]TUGA[/B][/COLOR]"
-       version="0.0.7"
-       provider-name="Amerikano Tuga">
+<addon id="plugin.video.GHOST"
+       name="GHOST"
+       version="0.0.1"
+       provider-name="GHOST">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -819,91 +133,17 @@ em procura livre na internet.
     <provides>video</provides>
   </extension>
   
-  <extension point="xbmc.addon.repository" name="repository.AmerikanoTuga">
-		<info compressed="false">http://amerikanotuga.tech/repo/addons.xml</info>
-		<checksum>http://amerikanotuga.tech/repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://amerikanotuga.tech/repo/zip/</datadir>
-	</extension>
-  	
-
   	
   <extension point="xbmc.addon.metadata">
-    <summary>Amerikano Tuga</summary>
+    <summary>ADDON GHOST</summary>
     <description>
         Todos os links disponibilizados no Addon estao disponiveis 
 em procura livre na internet.
              
     </description>
     <platform>all</platform>
-	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.gif</fanart>
-        </assets>
   </extension>
 </addon>
-
-
-
-
-
-
-<addon id="plugin.video.p2psport"
-	name="[COLOR green]p2psport[/COLOR]"
-	version="0.1.4"
-	provider-name="natko1412">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.mechanize" version="0.2.6"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Watch p2p sports in Kodi</summary>
-    <platform>all</platform>
-    <forum>forums.tvaddons.ag</forum>
-  </extension>
-</addon>
-
-
-
-
-<addon id="plugin.video.p2p-streams"
-       name="p2p-streams"
-       version="1.2.0b"
-       provider-name="enen92,fightnight">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.0.8"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.pytz" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.mechanize" version="0.2.6"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>SopCast and AceStream</summary>
-    <description lang="en">AceStream and Sopcast in your favourite media center! Watch peer-to-peer streams in Kodi without the need for external players. Project page: https://github.com/enen92/P2P-Streams-Kodi</description>
-    <description lang="pt">AceStream e Sopcast no seu Media-Center de eleição! Assista a streams peer-to-peer no Kodi sem a necessidade de players externos. Página do projecto: https://github.com/enen92/P2P-Streams-Kodi</description>
-    <description lang="nl">Acestream en Sopcast in jouw favoriete media center. Kijk peer-to-peer streams in Kodi zonder de noodzaak voor externe spelers. Project pagina: https://github.com/enen92/P2P-Streams-Kodi/</description>
-    <description lang="it">AceStream e SopCast nel tuo Media Center preferito! Guarda i canali peer-to-peer in Kodi senza la necessità di player esterni. Pagina del progetto: https://github.com/enen92/P2P-Streams-Kodi/</description>
-    <disclaimer lang="en">The authors does not host nor distribute any of the content you may watch using this addon. The authors have no affiliation with any of the content providers. This addon does not track its users.</disclaimer>
-    <disclaimer lang="pt">Os autores não alojam nem distribuem nenhum do conteúdo acessível a partir deste addon. Os autores não têm qualquer afiliação com nenhum dos sites utilizados por este addon. O addon não contem nenhuma ferramenta de tracking.</disclaimer>
-    <disclaimer lang="nl">De auteurs houden of delen niets van de inhoud die u kunt bekijken met behulp van deze addon. De auteurs hebben geen banden met welke leverancier van inhoud dan ook. Deze addon houdt geen gegevens bij van zijn gebruikers.</disclaimer>
-    <disclaimer lang="it">L'autore non detiene o distribuisce alcun contenuto fruibile tramite l'utilizzo di questo addon. L'autore non è affiliato con nessun fornitore dei contenuti. Questo addon non traccia i suoi utenti.</disclaimer>
-    <forum>http://forum.kodi.tv/showthread.php?tid=201894</forum>
-    <source>https://github.com/enen92/P2P-Streams-Kodi | https://github.com/enen92/P2P-Streams-Kodi--Modules</source>
-    <website>https://code.google.com/p/p2p-strm/</website>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 
 <addon
   id="plugin.video.SportsDevil"
@@ -939,6 +179,79 @@ For updates check the readme.
   </extension>
 </addon>
 
+<addon id="plugin.video.TheOne"
+       name="[COLOR blue]The[/COLOR]One"
+       version="0.0.8b"
+       provider-name="TheOne">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="false"/>
+    <import addon="plugin.video.youtube" optional="false" />
+    <import addon="script.module.urlresolver" optional="false"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+ 
+	 
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  
+  
+	
+  <extension point="xbmc.addon.metadata">
+    <summary>TheOne</summary>
+    <description>Todos os links disponibilizados no Addon estao disponiveis 
+em procura livre na internet.</description>
+    <platform>all</platform>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.gif</fanart>
+        </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.WEB"
+       name="WEB"
+       version="0.0.1"
+       provider-name="Team VipSecret">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.SportsDevil" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  
+  	
+  <extension point="xbmc.addon.metadata">
+    <summary>ADDON WEB</summary>
+    <description>
+        Todos os links disponibilizados no Addon estao disponiveis 
+em procura livre na internet.
+             
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
 
 <addon id="plugin.video.aceboxtv"
        name="AceBoxTV"
@@ -973,9 +286,6 @@ For updates check the readme.
 </addon>
 
 
-
-
-
 <addon
 	id="plugin.video.avezy"
 	name="AvEZY"
@@ -1006,6 +316,22 @@ For updates check the readme.
 	</extension>
 </addon>
 
+<addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.8.7"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    
+
+    <extension point="xbmc.addon.metadata">
+        <summary>f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
+</addon>
 
 <addon id="plugin.video.live.magellan"
        name="[COLOR yellow]Magellan[/COLOR]"
@@ -1041,107 +367,387 @@ em procura livre na internet.. Enjoy !![/COLOR]
   </extension>
 </addon>
 
-<addon id="plugin.video.portocanal" name="Porto Canal" version="0.0.2" provider-name="Mafarricos">
+<addon id="plugin.video.loganaddon" name="[B][COLOR red]LOGAN[/COLOR][/B]" version="2.1" provider-name="TeamTuga4ever">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="false"/>
+    <import addon="plugin.video.youtube" optional="false" />
+    <import addon="script.module.urlresolver" optional="false"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>HmmOK tudo para si</summary>
+    <description>
+
+        
+    </description>
+<platform>all</platform>
+  <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.gif</fanart>
+        </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.live.streamspro"
+       name="LiveStreamsPro"
+       version="2.8.1"
+       provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>livestreamspro- shamelessly forked from livestreams but added many thinks</summary>
+    <description>
+        In addition to what livestreams allowed you to do, you can now,
+        1. call regex in regex,
+        2. multiple regex in page, regex in session, also htmlunescape responses
+        3. create session from one regex and pass onto next in line
+        4. save sessions to a file and open again later
+        5. write python code in .py file, put in the profile directory and then call from your regex.
+        6. use epoctime, guid and unpack as functions already defined.
+        7. Use it to post values to the pages to get the proper responses
+        8. support many headers, like origin, X-Requested-With
+        9. you can now append cookies in response and then read in regex using includeheaders
+        10. You can now link to another web url via your xml using externallink
+        11. support for google captcha, now you can show and then post the text
+        
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.lubetube"
+       name="Lubetube (Adult)"
+       version="1.17"
+       provider-name="xbmc-adult">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <platform>all</platform>
-    <summary lang="en">Porto Canal</summary>
-    <description lang="en">Visualização dos videos do site http://portocanal.sapo.pt</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.rtpplay" name="RTP Play" version="2.6.0" provider-name="enen92">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>pt</language>
-    <platform>all</platform>
-    <summary lang="en">RTP Play addon for kodi</summary>
-    <summary lang="pt">RTP Play addon para o Kodi</summary>
-    <description lang="en">RTP Play live and on-demand broadcasts (radio and tv).</description>
-    <description lang="pt">Emissões em directo (Rádio e TV) e On-Demand da RTP Play (rádio e tv).</description>
-    <disclaimer lang="pt">Plugin independente e de código aberto não produzido pela rtp</disclaimer>
-    <disclaimer lang="en">Independent and opensource plugin not endorsed by RTP</disclaimer>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=154645</forum>
-    <source>https://github.com/enen92/plugin.video.RTPPlay-XBMC</source>
-    <website>http://www.rtp.pt/play</website>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-
-<addon id="plugin.video.sicnoticias" name="Sic Noticias" version="0.0.13" provider-name="Mafarricos">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <platform>all</platform>
-    <summary lang="en">Sic Noticias</summary>
-    <description lang="en">Visualização dos videos/noticias do site http://sicnoticias.sapo.pt</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-
-<addon id="plugin.video.tviplayer" name="TVI Kodi Player" version="0.2.1" provider-name="darksky83">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>pt</language>
-    <platform>all</platform>
-    <summary lang="en">TVI Player addon for kodi</summary>
-    <summary lang="pt">TVI Player addon para o Kodi</summary>
-    <description lang="en">TVI Player on-demand tv broadcasts.</description>
-    <description lang="pt">Emissões em On-Demand da TVI Player.</description>
-    <disclaimer lang="pt">Plugin independente e de código aberto não produzido pela TVI</disclaimer>
-    <disclaimer lang="en">Independent and opensource plugin not endorsed by TVI</disclaimer>
-    <source>https://github.com/darksky83/plugin.video.tviplayer</source>
-    <website>http://tviplayer.iol.pt/</website>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.tvpor"
-       name="TV Portuguesa"
-       version="0.5.7"
-       provider-name="fightnight">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.pytz"/>
-		<import addon="script.module.urlresolver"  version="1.0.5"/>
-		<import addon="script.module.requests"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
         <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Ver canais de TV portugueses e radios no KODI</summary>
-        <description>Ve os teus canais portugueses favoritos e ouve radios no KODI.
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</summary>
+    <description>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 
-O addon apenas inclui streams oficiais.</description>
-        <disclaimer>O autor deste addon NAO e responsavel pelo conteudo dos streams.</disclaimer>
-        <platform>all</platform>
-    </extension>
+<addon id="plugin.video.mobdina" name="Mobdina" version="10.17.2017" provider-name="Sweetwork">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0" />
+		<import addon="script.module.pyxbmct" />
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.liveresolver" />
+		<import addon="repository.sweetwork" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Movies, Sports, Live TV</summary>
+		<description lang="en">Sweetwork.net Presents Streaming content from the Mobdro android API</description>
+		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.gif</fanart>
+        </assets>
+	</extension>
+</addon>
+
+<addon id="plugin.video.p2p-streams"
+       name="p2p-streams"
+       version="1.2.0b"
+       provider-name="enen92,fightnight">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.pytz" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.mechanize" version="0.2.6"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>SopCast and AceStream</summary>
+    <description lang="en">AceStream and Sopcast in your favourite media center! Watch peer-to-peer streams in Kodi without the need for external players. Project page: https://github.com/enen92/P2P-Streams-Kodi</description>
+    <description lang="pt">AceStream e Sopcast no seu Media-Center de eleição! Assista a streams peer-to-peer no Kodi sem a necessidade de players externos. Página do projecto: https://github.com/enen92/P2P-Streams-Kodi</description>
+    <description lang="nl">Acestream en Sopcast in jouw favoriete media center. Kijk peer-to-peer streams in Kodi zonder de noodzaak voor externe spelers. Project pagina: https://github.com/enen92/P2P-Streams-Kodi/</description>
+    <description lang="it">AceStream e SopCast nel tuo Media Center preferito! Guarda i canali peer-to-peer in Kodi senza la necessità di player esterni. Pagina del progetto: https://github.com/enen92/P2P-Streams-Kodi/</description>
+    <disclaimer lang="en">The authors does not host nor distribute any of the content you may watch using this addon. The authors have no affiliation with any of the content providers. This addon does not track its users.</disclaimer>
+    <disclaimer lang="pt">Os autores não alojam nem distribuem nenhum do conteúdo acessível a partir deste addon. Os autores não têm qualquer afiliação com nenhum dos sites utilizados por este addon. O addon não contem nenhuma ferramenta de tracking.</disclaimer>
+    <disclaimer lang="nl">De auteurs houden of delen niets van de inhoud die u kunt bekijken met behulp van deze addon. De auteurs hebben geen banden met welke leverancier van inhoud dan ook. Deze addon houdt geen gegevens bij van zijn gebruikers.</disclaimer>
+    <disclaimer lang="it">L'autore non detiene o distribuisce alcun contenuto fruibile tramite l'utilizzo di questo addon. L'autore non è affiliato con nessun fornitore dei contenuti. Questo addon non traccia i suoi utenti.</disclaimer>
+    <forum>http://forum.kodi.tv/showthread.php?tid=201894</forum>
+    <source>https://github.com/enen92/P2P-Streams-Kodi | https://github.com/enen92/P2P-Streams-Kodi--Modules-</source>
+    <website>https://code.google.com/p/p2p-strm/</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.p2psport"
+	name="[COLOR green]p2psport[/COLOR]"
+	version="0.1.4"
+	provider-name="natko1412">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.mechanize" version="0.2.6"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch p2p sports in Kodi</summary>
+    <platform>all</platform>
+    <forum>forums.tvaddons.ag</forum>
+  </extension>
+</addon>
+
+<addon id="plugin.video.piranha" version="3.0" name="[COLOR gold][B]Piranha[/B][/COLOR]" provider-name="VipSecret">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.piranha" />
+		<import addon="script.piranha.artwork" version="3.0" />
+		<import addon="script.piranha.metadata" version="3.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="piranha.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Piranha</summary>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+
+<addon id="script.module.piranha" name="PIRANHA Module" version="3.0" provider-name="VipSecret">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Piranha</summary>
+	</extension>
+</addon>
+
+<addon id="script.piranha.artwork" version="3.0" name="PIRANHA Artwork" provider-name="VipSecret">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the PIRANHA Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.piranha.metadata" version="3.0" name="Piranha Metadata" provider-name="VipSecret">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Piranha Addon</summary>
+		<description>Metadata for Piranha are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.rsiptv"
+       name="[COLOR blue]RS[/COLOR]IPTV"
+       version="0.10"
+       provider-name="RSIPTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="false"/>
+    <import addon="plugin.video.youtube" optional="false" />
+    <import addon="script.module.urlresolver" optional="false"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+ 
+	 
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="r.py">
+    <provides>video</provides>
+  </extension>
+  
+   <extension point="xbmc.addon.repository" name="repository.rsiptv">
+		<info compressed="false">https://raw.githubusercontent.com/rsiptv2018/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/rsiptv2018/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/rsiptv2018/repo/raw/master/zip/</datadir>
+	</extension>
+	
+	
+  <extension point="xbmc.addon.metadata">
+    <summary>RSIPTV</summary>
+    <description>Todos os links disponibilizados no Addon estao disponiveis 
+em procura livre na internet.</description>
+    <platform>all</platform>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.gif</fanart>
+        </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.teamblue"
+       name="[COLOR blue]T[/COLOR]eam[COLOR blue]B[/COLOR]lue Live Events"
+       version="2.4"
+       provider-name="Eduardo Pinto">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pt">Add-on ao estilo Agenda Desportiva</summary>
+    <description lang="pt">
+O add-on TeamBlue apresenta as seguintes secções:
+Agenda desportiva com transmissões em direto de várias modalidades
+Sports Replays (Futebol-Desportos Motorizados-WWE-UFC-NBA)
+Canais World IPTV (Portugal-Alemanha-Espanha-França-Itália-Inglaterra-Brasil-Estados Unidos-Adultos) 
+Canais Arenavision (para ver com o Plexus)
+Webcam's
+NOTA: para a correta visualização de alguns canais é necessário ter instalados: 
+f4mtester – f4mproxy - Sports Devil – Plexus
+O criador deste addon não possui nem está ligado de nenhuma forma ao conteúdo nele disponibilizado.
+Apenas disponibiliza conteúdos de terceiros	
+	</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.vipsecret"
+       name="[COLOR gold][B]SECRET[/B][/COLOR][COLOR white][B]TV[/B][/COLOR][COLOR blue][B]VIP[/B][/COLOR]"
+       version="0.0.8"
+       provider-name="Team VipSecret">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="false"/>
+    <import addon="plugin.video.youtube" optional="false" />
+    <import addon="script.module.urlresolver" optional="false"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+ 
+	 
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="v.py">
+    <provides>video</provides>
+  </extension>
+  
+   <extension point="xbmc.addon.metadata">
+    <summary>SECRET TV VIP</summary>
+    <description>Todos os links disponibilizados no Addon estao disponiveis 
+em procura livre na internet.</description>
+    <platform>all</platform>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.gif</fanart>
+        </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.youporn" 
+	     name="YouPorn" 
+	     version="2.02" 
+	     provider-name="Echo Coder">
+  <requires>
+	<import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">OVER 18 ONLY - Support is available on Twitter @EchoCoding</summary>
+    <description lang="en">YouPorn Scraping by Echo Coder
+
+Skin and code for skin by Demonstratorz</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://www.echocoder.com</forum>
+    <website>http://www.echocoder.com</website>
+    <email>echocoder@protonmail.com</email>
+  </extension>
 </addon>
 
 <addon id="plugin.video.youtube" name="YouTube" version="5.4.13" provider-name="h0d3nt3uf3l, bromix">
@@ -1195,102 +801,89 @@ O addon apenas inclui streams oficiais.</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.video.F4mProxy" version="2.7.1"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    
-
-    <extension point="xbmc.addon.metadata">
-        <summary>f4mTester</summary>
-        <description></description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.7" provider-name="Shani">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.requests"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib"/>
-		<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Proxy for f4m</summary>
-		<description lang="en">Use this addon to play F4m v1 and v2 streams</description>
-	</extension>
-</addon>
-
-<addon id="script.module.liveresolver" 
-     name="LiveResolver" 
-     version="0.1.49" 
-     provider-name="natko1412">
+<addon id="program.plexus"
+       name="Plexus"
+       version="0.1.7"
+       provider-name="enen92, TVAddons, RonnieHD">
   <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.addon.common" version="2.0.0" />
-
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" />
   </requires>
-  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>executable</provides>
+  </extension>
+  
   <extension point="xbmc.addon.metadata">
+    <summary>SopCast and AceStream for Kodi</summary>
+    <description lang="en">Plexus - Any complex structure containing an intricate network of parts. Plexus brings native peer-to-peer support (AceStream and SopCast) for Kodi Entertainment Center for several platforms.[CR][CR]Documentation: (missing)</description>
+    <description lang="pt">Plexus - Uma estrutura complexa constituída por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para várias plataformas.[CR][CR]Documentação: (em falta)</description>
+    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus añade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
+	<disclaimer lang="en">The author does not host nor distribute any of the content you may watch using this addon. The author has no part in the development of any included technologies. When seeking help in Kodi's forum please respect rules (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <disclaimer lang="pt">Os autores não alojam nem distribuem nenhum do conteúdo que poderá ser reproduzido a partir deste addon. Os autores não têm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fórum oficial do Kodi por favor respeite as regras do fórum (http://kodi.wiki/view/Forum_rules).</disclaimer>
+   	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
     <platform>all</platform>
-    <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
-    <description lang="en"></description>    
   </extension>
 </addon>
 
-
-
-<addon id="script.module.httplib2" name="httplib2" provider-name=" Joe magic1orio" version="0.8.0">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension library="lib" point="xbmc.python.module" />
-  <extension point="xbmc.addon.metadata">
-        <description lan="en">httplib2 module</description>
-        <summary lang="en">httplib2 module</summary>
-        <disclaimer lang="en">Visit https://pypi.python.org/pypi/httplib2</disclaimer>
-        <license>MIT</license>
-        <platform>all</platform>
-        <email></email>
-        <website>https://pypi.python.org/pypi/httplib2</website>
-        <forum></forum>
-        <source>https://pypi.python.org/pypi/httplib2</source>
-        <language></language>
-   </extension>
+<addon id="repository.aceboxpt" name="AceBoxPT Repo" version="3.0" provider-name="AceBoxPT">
+	<extension point="xbmc.addon.repository" name="AceBoxPT Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/AceBoxPT/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/AceBoxPT/repository/master/repo/plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">www.aceboxstreams.info</summary>
+		<description lang="en">AceBoxPT repository of some favorites coders...</description>
+		<genre>kids,livetv,movies,radio,sports,tvshows,portuguese,uk</genre>
+	</extension>
 </addon>
 
-<addon id="plugin.video.sapo"
-       name="Sapo Videos"
-       version="1.0.0"
-       provider-name="fightnight">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/> 
-		<import addon="script.module.requests"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-		<language>pt</language>
+<addon id="repository.magellan" name="Repo Magellan" version="1.1" provider-name="Ike">
+	<extension point="xbmc.addon.repository" name="repository.magellan">
+		<info compressed="false">http://raw.github.com/afonsinoguimaraes/repository.magellan/master/addons.xml</info>
+		<checksum>http://raw.github.com/afonsinoguimaraes/repository.magellan/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/afonsinoguimaraes/repository.magellan/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repo Magellan</summary>
+		<description>Repo Magellan</description>
+		<disclaimer></disclaimer>
 		<platform>all</platform>
-		<summary lang="en">Sapo Videos addon for Kodi</summary>
-		<summary lang="en">Sapo Videos addon para o Kodi</summary>
-        <description lang="en">Live and On-Demand videos from Sapo Videos webpage for Kodi.</description>
-		<description lang="pt">Vídeos e transmissões ao vivo do Sapo Videos para o Kodi.</description>
-		<disclaimer lang="en">Independent and opensource plugin not endorsed by Sapo.</disclaimer>
-		<disclaimer lang="pt">Addon independente e opensource não afliado com o Sapo.</disclaimer>
-		<source>https://github.com/fightnight/fightnight-addons/tree/master/plugin.video.sapo</source>
-        <platform>all</platform>
-    </extension>
+	</extension>
+</addon>
+
+<addon id="repository.kodirs" name="[COLOR red][B]Kodi RS:[/B][/COLOR] [COLOR snow][B]Repository[/B][/COLOR]" version="1.0" provider-name="RS">
+	<extension point="xbmc.addon.repository" name="Kodi RS: Repository">
+		<info compressed="false">http://kodirs.esy.es/kodiRS/files/addons.xml</info>
+		<checksum>http://kodirs.esy.es/kodiRS/files/addons.xml.md5</checksum>
+		<datadir zip="true">http://kodirs.esy.es/kodiRS/repofiles/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>RS REPO</summary>
+		<description><description lang="en">Este é o repository com todo o conteudo by rs</description></description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.plexus-streams" name="Plexus-Streams Repository" version="1.0.0" provider-name="D4FC">
+	<extension point="xbmc.addon.repository" name="Plexus-Streams Repository">
+		<info compressed="false">https://bitbucket.org/plexus-streams/plexus-streams/raw/releases/addons.xml</info>
+		<checksum>https://bitbucket.org/plexus-streams/plexus-streams/raw/releases/addons.xml.md5</checksum>
+		<datadir zip="true">https://bitbucket.org/plexus-streams/plexus-streams/raw/releases/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Plexus-Streams Repository</summary>
+		<description>Plexus-Streams Repository</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon
@@ -1323,31 +916,303 @@ O addon apenas inclui streams oficiais.</description>
   </extension>
 </addon>
 
-<addon id="service.subtitles.subscene"
-       name="Subscene.com"
-       version="1.7.1"
-       provider-name="CrowleyAJ">
-    <requires>
-        <import addon="xbmc.python" version="2.14.0"/>
-    </requires>
-    <extension point="xbmc.subtitle.module"
-               library="service.py"/>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Get subtitles from Subscene.com</summary>
-        <description lang="en">Subscene.com provides subtitles in more than 50 languages, mainly in English, Arabic, Brazilian Portuguese, Farsi, Indonesian and Vietnamese.
-Other languages with a great number of subtitles are: Danish, French, Swedish, Dutch, Italian, Norwegian and Spanish.</description>
-        <disclaimer lang="en"/>
-        <platform>all</platform>
-        <language/>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum>http://forum.xbmc.org/showthread.php?tid=184854</forum>
-        <website/>
-        <email/>
-        <source>https://github.com/manacker/service.subtitles.subscene</source>
-    </extension>
+<addon id="script.module.addon.common" 
+	     name="Common addon methods" 
+	     version="2.0.0" 
+	     provider-name="Eldorado (original: t0mm0)">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of commonly used addon routines</summary>
+    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>  
+  </extension>
 </addon>
 
+<addon id="script.module.beautifulsoup4"
+       name="BeautifulSoup4"
+       version="4.5.3"
+       provider-name="Leonard Richardson (leonardr@segfault.org)">
+  <requires>
+    <import addon="xbmc.python" 
+             version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>HTML/XML parser for quick-turnaround applications like screen-scraping</summary>
+    <description>Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.</description>
+    <license>BSD</license>
+    <platform>all</platform>
+    <website>http://www.crummy.com/software/BeautifulSoup/</website>
+  </extension>
+</addon>
 
+<addon id="script.module.donation"
+  name="[COLOR white]DONATION PAYPAL.ME/[/COLOR][COLOR blue]TEAM[/COLOR][COLOR blue]VIPSECRET[/COLOR]"
+  version="2.0" 
+  provider-name="v">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.script" library="v.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">[COLOR white]DONATION PAYPAL.ME/[COLOR blue]TEAM[/COLOR][COLOR blue]VIPSECRET[/COLOR]</summary>
+    <description lang="en">[COLOR white]DONATION PAYPAL.ME/[COLOR blue]TEAM[/COLOR][COLOR blue]VIPSECRET[/COLOR]</description>
+	<disclaimer>[COLOR white]DONATION PAYPAL.ME/[COLOR blue]TEAM[/COLOR][COLOR blue]VIPSECRET[/COLOR]</disclaimer>
+  </extension>
+</addon>
+
+<addon id="script.module.f4mproxy" 
+	     name="f4m proxy" 
+	     version="1.0.16" 
+	     provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Proxy for f4m</summary>
+    <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+  </extension>
+</addon>
+
+<addon id="script.module.httplib2" name="httplib2" provider-name=" Joe Gregorio" version="0.8.0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+        <description lan="en">httplib2 module</description>
+        <summary lang="en">httplib2 module</summary>
+        <disclaimer lang="en">Visit https://pypi.python.org/pypi/httplib2</disclaimer>
+        <license>MIT</license>
+        <platform>all</platform>
+        <email></email>
+        <website>https://pypi.python.org/pypi/httplib2</website>
+        <forum></forum>
+        <source>https://pypi.python.org/pypi/httplib2</source>
+        <language></language>
+   </extension>
+</addon>
+
+<addon id="script.module.liveresolver" 
+     name="LiveResolver" 
+     version="0.1.49" 
+     provider-name="natko1412">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
+
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
+    <description lang="en"></description>    
+  </extension>
+</addon>
+
+<addon id="script.module.livestreamer"
+       name="livestreamer"
+       version="1.12.0"
+       provider-name="Christopher Rosell">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"
+                      version="1.1.0"
+                     optional="false"/>
+    <import addon="script.module.singledispatch"
+                      version="3.4.0.3"
+                     optional="false"/>
+    <import addon="script.module.futures"
+                      version="2.2.0"
+                     optional="false"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Livestreamer extracts streams from various services</summary>
+    <description>Livestreamer is a command-line utility that pipes video streams from various services into a video player, such as VLC. The main purpose of Livestreamer is to allow the user to avoid buggy and CPU heavy flash plugins but still be able to enjoy various streamed content. There is also an API available for developers who want access to the video stream data.</description>
+    <platform>all</platform>
+    <license>Simplified BSD</license>
+    <source>https://github.com/chrippa/livestreamer.git</source>
+    <website>http://livestreamer.io</website>
+  </extension>
+</addon>
+
+<addon id="script.module.pair"
+  name="Pair"
+  version="2.0" 
+  provider-name="RSIPTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.script" library="pair.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">RSIPTV Menu System</summary>
+    <description lang="en">RSIPTV Menu System</description>
+	<disclaimer>RSIPTV Menu System</disclaimer>
+  </extension>
+</addon>
+
+<addon id="script.module.parsedom" name="Parsedom for xbmc plugins" provider-name="TheCollective" version="2.5.2">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Parsedom for xbmc plugins.</summary>
+  </extension>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+        <license>GPLv3</license>
+        <platform>all</platform>
+        <email></email>
+        <website></website>
+        <forum>http://forum.xbmc.org/showthread.php?tid=116498</forum>
+        <source>https://github.com/HenrikDK/xbmc-common-plugin-functions</source>
+        <language></language>
+   </extension>
+</addon>
+
+<addon id="script.module.simple.downloader" name="Simple Downloader for xbmc plugins" provider-name="TheCollective" version="1.9.5">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.common.plugin.cache" version="2.5.0" />
+    <import addon="script.module.parsedom" version="2.5.1" />
+  </requires>
+  <extension library="default.py" point="xbmc.service" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Simple downloader for xbmc plugins.</summary>
+  </extension>
+  <extension library="lib" point="xbmc.python.module" />
+</addon>
+
+<addon id="script.module.t0mm0.common" 
+	     name="t0mm0's common stuff" 
+	     version="2.1.1" 
+	     provider-name="t0mm0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of commonly used addon routines</summary>
+    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+  </extension>
+</addon>
+
+<addon id="script.module.theonem" name="[COLOR blue]The[/COLOR]One MOVIES SCRIPT" version="2.0" provider-name="RSIPTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.urlresolver" version="4.0.07"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+    <import addon="script.module.futures" version="2.2.0"/>
+    <import addon="script.module.pair" />
+     </requires>
+  <extension point="xbmc.python.pluginsource" library="t.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR blue]The[/COLOR]One MOVIES SCRIPT  #####Credits to Biglad#####</summary>
+    <description lang="en">[COLOR blue]The[/COLOR]One MOVIES SCRIPT  #####Credits to Biglad#####</description>
+	    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id='script.module.torrent.ts' version='0.6.0.28a' name='AceStream Client' provider-name='NuisMons'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="tsserv.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point='xbmc.addon.metadata'>
+    <platform>all</platform>
+    <summary>AceStream Engine support</summary>
+  </extension>
+  <extension library="default.py" point="xbmc.service" />
+  <extension point='xbmc.python.module'/>
+</addon>
+
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.00" provider-name="tvaddons">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.python.twitch" optional="true" />
+		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common video host URL's to be playable in Kodi.</summary>
+		<description lang="en">Resolve common video host URL's to be playable in Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+		<platform>all</platform>
+        <forum>https://www.tvaddons.co/forums</forum>
+        <website>https://www.tvaddons.co</website>
+	</extension>
+</addon>
+
+<addon id="script.module.vipsecretm" name="[COLOR gold][B]SECRET[/B][/COLOR][COLOR white][B]TV[/B][/COLOR][COLOR blue][B]VIP[/B][/COLOR] MOVIES 1080P" version="2.0" provider-name="RSIPTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.urlresolver" version="4.0.07"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+    <import addon="script.module.futures" version="2.2.0"/>
+    <import addon="script.module.pair" />
+     </requires>
+  <extension point="xbmc.python.pluginsource" library="vipm.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR gold][B]SECRET[/B][/COLOR][COLOR white][B]TV[/B][/COLOR][COLOR blue][B]VIP[/B][/COLOR] MOVIES SCRIPT  #####Credits to Biglad#####</summary>
+    <description lang="en">[COLOR gold][B]SECRET[/B][/COLOR][COLOR white][B]TV[/B][/COLOR][COLOR blue][B]VIP[/B][/COLOR] MOVIES SCRIPT  #####Credits to Biglad#####</description>
+	    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.7" provider-name="Shani">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.requests"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Proxy for f4m</summary>
+		<description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+	</extension>
+</addon>
 
 <addon id="service.subtitles.opensubtitles_by_opensubtitles"
        name="OpenSubtitles.org by OpenSubtitles"
@@ -1423,215 +1288,44 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
-
-
-
-
-
-<addon id="program.plexus"
-       name="Plexus"
-       version="0.1.7"
-       provider-name="enen92, TVAddons, RonnieHD">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>executable</provides>
-  </extension>
-  
-  <extension point="xbmc.addon.metadata">
-    <summary>SopCast and AceStream for Kodi</summary>
-    <description lang="en">Plexus - Any complex structure containing an intricate network of parts. Plexus brings native peer-to-peer support (AceStream and SopCast) for Kodi Entertainment Center for several platforms.[CR][CR]Documentation: (missing)</description>
-    <description lang="pt">Plexus - Uma estrutura complexa constituída por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para várias plataformas.[CR][CR]Documentação: (em falta)</description>
-    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus añade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
-	<disclaimer lang="en">The author does not host nor distribute any of the content you may watch using this addon. The author has no part in the development of any included technologies. When seeking help in Kodi's forum please respect rules (http://kodi.wiki/view/Forum_rules).</disclaimer>
-    <disclaimer lang="pt">Os autores não alojam nem distribuem nenhum do conteúdo que poderá ser reproduzido a partir deste addon. Os autores não têm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fórum oficial do Kodi por favor respeite as regras do fórum (http://kodi.wiki/view/Forum_rules).</disclaimer>
-   	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-
-
-
-<addon id="script.module.liveresolver" 
-     name="LiveResolver" 
-     version="0.1.48" 
-     provider-name="natko1412">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.addon.common" version="2.0.0" />
-
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
-    <description lang="en"></description>    
-  </extension>
-</addon>
-
-
-
-<addon id="repository.kodirs" name="[COLOR red][B]Kodi RS:[/B][/COLOR] [COLOR snow][B]Repository[/B][/COLOR]" version="1.0" provider-name="RS">
-	<extension point="xbmc.addon.repository" name="Kodi RS: Repository">
-		<info compressed="false">http://kodirs.esy.es/kodiRS/files/addons.xml</info>
-		<checksum>http://kodirs.esy.es/kodiRS/files/addons.xml.md5</checksum>
-		<datadir zip="true">http://kodirs.esy.es/kodiRS/repofiles/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>RS REPO</summary>
-		<description><description lang="en">Este é o repository com todo o conteudo by rs</description></description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.module.livestreamer"
-       name="livestreamer"
-       version="1.12.0"
-       provider-name="Christopher Rosell">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests"
-                      version="1.1.0"
-                     optional="false"/>
-    <import addon="script.module.singledispatch"
-                      version="3.4.0.3"
-                     optional="false"/>
-    <import addon="script.module.futures"
-                      version="2.2.0"
-                     optional="false"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib"/>
-  <extension point="xbmc.addon.metadata">
-    <summary>Livestreamer extracts streams from various services</summary>
-    <description>Livestreamer is a command-line utility that pipes video streams from various services into a video player, such as VLC. The main purpose of Livestreamer is to allow the user to avoid buggy and CPU heavy flash plugins but still be able to enjoy various streamed content. There is also an API available for developers who want access to the video stream data.</description>
-    <platform>all</platform>
-    <license>Simplified BSD</license>
-    <source>https://github.com/chrippa/livestreamer.git</source>
-    <website>http://livestreamer.io</website>
-  </extension>
-</addon>
-
-
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.00" provider-name="tvaddons">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.python.twitch" optional="true" />
-		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Resolve common video host URL's to be playable in Kodi.</summary>
-		<description lang="en">Resolve common video host URL's to be playable in Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<platform>all</platform>
-        <forum>https://www.tvaddons.co/forums</forum>
-        <website>https://www.tvaddons.co</website>
-	</extension>
-</addon>
-
-
-
-<addon id="plugin.video.AniPT"
-       name="AniPT"
-       version="1.0"
-       provider-name="RS">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" version="3.0.31"/>
-    <import addon="script.module.simplejson" /> 
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Animes e Desenhos Animados</summary>
-    <description lang="en">Este addon contem todo o tipo de animes e desenhos animados.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.tvgolo"
-       name="OKGoals"
-       version="1.0.6"
-       provider-name="fightnight">
+<addon id="service.subtitles.subscene"
+       name="Subscene.com"
+       version="1.7.1"
+       provider-name="CrowleyAJ">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.urlresolver"  version="1.0.5"/> 
-		<import addon="script.module.requests"/>
+        <import addon="xbmc.python" version="2.14.0"/>
     </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
+    <extension point="xbmc.subtitle.module"
+               library="service.py"/>
     <extension point="xbmc.addon.metadata">
-		<language>pt</language>
-		<platform>all</platform>
-		<source>https://github.com/fightnight/fightnight-addons/tree/master/plugin.video.tvgolo</source>
-		<summary lang="en">OKGoals addon for Kodi</summary>
-		<summary lang="pt">OKGoals addon para o Kodi</summary>
-		<description lang="en">The best goals from OKGoals.com on Kodi.</description>
-		<description lang="pt">Os melhor golos do OKGoals.com para o Kodi.</description>
-		<disclaimer lang="en">Independent and opensource addon not endorsed by OKGoals.</disclaimer>
-		<disclaimer lang="pt">Addon independente e opensource não afliado com OKGoals.</disclaimer>
+        <summary lang="en">Get subtitles from Subscene.com</summary>
+        <description lang="en">Subscene.com provides subtitles in more than 50 languages, mainly in English, Arabic, Brazilian Portuguese, Farsi, Indonesian and Vietnamese.
+Other languages with a great number of subtitles are: Danish, French, Swedish, Dutch, Italian, Norwegian and Spanish.</description>
+        <disclaimer lang="en"/>
+        <platform>all</platform>
+        <language/>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>http://forum.xbmc.org/showthread.php?tid=184854</forum>
+        <website/>
+        <email/>
+        <source>https://github.com/manacker/service.subtitles.subscene</source>
     </extension>
 </addon>
 
-
-
-
-
-
-
-
-
-
-<addon id="script.module.livestreamer"
-       name="livestreamer"
-       version="1.12.0"
-       provider-name="Christopher Rosell">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests"
-                      version="1.1.0"
-                     optional="false"/>
-    <import addon="script.module.singledispatch"
-                      version="3.4.0.3"
-                     optional="false"/>
-    <import addon="script.module.futures"
-                      version="2.2.0"
-                     optional="false"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib"/>
-  <extension point="xbmc.addon.metadata">
-    <summary>Livestreamer extracts streams from various services</summary>
-    <description>Livestreamer is a command-line utility that pipes video streams from various services into a video player, such as VLC. The main purpose of Livestreamer is to allow the user to avoid buggy and CPU heavy flash plugins but still be able to enjoy various streamed content. There is also an API available for developers who want access to the video stream data.</description>
-    <platform>all</platform>
-    <license>Simplified BSD</license>
-    <source>https://github.com/chrippa/livestreamer.git</source>
-    <website>http://livestreamer.io</website>
-  </extension>
+<addon id="teamtuga4ever.repository" name="Teamtuga4ever Repository" version="2.0" provider-name="Teamtuga4ever">
+	<extension point="xbmc.addon.repository" name="Vip Secrettv">
+		<info compressed="false">http://logan.amerikanotuga.tech/repo/addons.xml</info>
+		<checksum>http://logan.amerikanotuga.tech/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://logan.amerikanotuga.tech/repo/zip/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Teamtuga4ever</summary>
+		<description>
+Teamtuga4ever Repository
+		 </description> 
+		
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="xbmc.python" version="2.25.0" provider-name="Team Kodi">
@@ -1646,45 +1340,6 @@ v5.2.14 (2017-01-23)
   <extension-point id="library" schema="script.xsd"/>
   <extension-point id="plugin" schema="pluginsource.xsd"/>
   <extension-point id="context.item" schema="contextitem.xsd"/>
-</addon>
-
-
-<addon id="script.module.addon.common" 
-	     name="Common addon methods" 
-	     version="2.0.0" 
-	     provider-name="Eldorado (original: t0mm0)">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Collection of commonly used addon routines</summary>
-    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>  
-  </extension>
-</addon>
-
-<addon id="script.module.f4mproxy" 
-	     name="f4m proxy" 
-	     version="1.0.16" 
-	     provider-name="Shani">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Proxy for f4m</summary>
-    <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
-  </extension>
 </addon>
 
 </addons>

@@ -1,0 +1,15 @@
+<addon id="plugin.program.VipSecrettv.wizard" name="[COLOR gold][B]VipSecrettv[/B][/COLOR][COLOR ghostwhite]Wizard[/COLOR]" version="1.0" provider-name="Marco Nogueira">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR lightskyblue]VipSecrettv Wizard[/COLOR]</summary>
+    <description lang="en">VipSecrettv Wizard will allow you to Kodi/Install Build/Install Apkz And More</description>
+    <platform>all</platform>
+	<news>Thanks To Aftermath For The Base Of The Wizard You Did A Great Job, I Have Made Some Great Changes And More To Come</news>
+  </extension>
+</addon>

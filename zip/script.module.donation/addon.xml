@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.donation"
+  name="[COLOR white]DONATION PAYPAL.ME/[/COLOR][COLOR blue]TEAM[/COLOR][COLOR blue]VIPSECRET[/COLOR]"
+  version="2.0" 
+  provider-name="v">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.script" library="v.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">[COLOR white]DONATION PAYPAL.ME/[COLOR blue]TEAM[/COLOR][COLOR blue]VIPSECRET[/COLOR]</summary>
+    <description lang="en">[COLOR white]DONATION PAYPAL.ME/[COLOR blue]TEAM[/COLOR][COLOR blue]VIPSECRET[/COLOR]</description>
+	<disclaimer>[COLOR white]DONATION PAYPAL.ME/[COLOR blue]TEAM[/COLOR][COLOR blue]VIPSECRET[/COLOR]</disclaimer>
+  </extension>
+</addon>

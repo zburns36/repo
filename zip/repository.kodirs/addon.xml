@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodirs" name="[COLOR red][B]Kodi RS:[/B][/COLOR] [COLOR snow][B]Repository[/B][/COLOR]" version="1.0" provider-name="RS">
+	<extension point="xbmc.addon.repository" name="Kodi RS: Repository">
+		<info compressed="false">http://kodirs.esy.es/kodiRS/files/addons.xml</info>
+		<checksum>http://kodirs.esy.es/kodiRS/files/addons.xml.md5</checksum>
+		<datadir zip="true">http://kodirs.esy.es/kodiRS/repofiles/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>RS REPO</summary>
+		<description><description lang="en">Este é o repository com todo o conteudo by rs</description></description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>

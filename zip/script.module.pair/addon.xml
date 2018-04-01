@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.pair"
+  name="Pair"
+  version="2.0" 
+  provider-name="RSIPTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.script" library="pair.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">RSIPTV Menu System</summary>
+    <description lang="en">RSIPTV Menu System</description>
+	<disclaimer>RSIPTV Menu System</disclaimer>
+  </extension>
+</addon>

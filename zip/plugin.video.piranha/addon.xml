@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.piranha" version="3.0" name="[COLOR gold][B]Piranha[/B][/COLOR]" provider-name="VipSecret">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.piranha" />
+		<import addon="script.piranha.artwork" version="3.0" />
+		<import addon="script.piranha.metadata" version="3.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="piranha.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Piranha</summary>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
